@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Converto</string>
+    <string name="currency">Choose currency</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="conversion">Conversion Rate</string>
+    <string name="amount">Amount to convert</string>
+    <string name="biig">
+
+
+        Permission is  granted, free of charge, to any person obtaining a copy of this application , to deal in the Application without restriction,
+        including without limitation the rights to use, copy, modify, merge, publish, distribute and/or sell copies of the application. The individual/organization must
+        also give credit to the real owner.In no event shall the copyright holders be liable for any claim, damages or other liability, whether Iin
+        an action of contract, tort or otherwise, arising from, out of or in  connection with the application or the use of other dealings in the application.
+
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Application.
+
+     </string>
+
+    <string name="abot">Converto is made using Java and can convert currencies. Currency values are updated every 60 minutes.</string>
+    <string name="adsUnit">ca-app-pub-3624215168389549/8075684610</string>
+    <string name="inter">ca-app-pub-3624215168389549/9197194595</string>
+
+
+
+
+</resources>
+
+

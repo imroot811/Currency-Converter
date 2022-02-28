@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFEB7"
+    tools:context=".AboutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+
+            android:id="@+id/essage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Converto is made using Java and can convert over 99% currencies recognized by UN to real time exchange rates (Check the table to know more.)  \n  \nFor converting currencies search the currency you want from the list and enter, do the same with the currency you are comparing then enter the number and you will get your conversion rate result. \n \n \nNOTE: The selected and the comparing currencies might not work and show in decimal range between 0-0.9 if that happens just replace the comparing currency to the selected one (It only happens when the selected currency is weaker than the comparing currency.)  \n \nCurrencies are updated every 60 minutes and can handle over 100 requests per hour.\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp">
+
+
+        </me.biubiubiu.justifytext.library.JustifyTextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/downtext"
+            android:text="API USED:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:fontFamily="@font/baloo"
+            android:text="https://free.currencyconverterapi.com/"
+            android:autoLink="web"
+            android:textSize="18sp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/t"
+            android:text="Currency table list: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:fontFamily="@font/baloo"
+            android:text="https://www.exchangerate-api.com/docs/supported-currencies"
+            android:autoLink="web"
+            android:textSize="18sp"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

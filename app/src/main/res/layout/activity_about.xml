@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFEB7"
+    tools:context=".AboutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="To any person obtaining an apk can use it without any restriction including limitation such as the rights to use, copy, modify, merge, publish, distribute or sell apk of the application.The sole purpose of this operation is only to make more improvements to this app and not to misuse it. In no event shall the copyright holders be liable for any claim, damages or other liability, whether In an action of contract or otherwise, arising from, out of or in connection with the application or the use of other dealings in the application. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Application. It is requested that individual must give credit to the original developer. \n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp">
+
+        </me.biubiubiu.justifytext.library.JustifyTextView>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
